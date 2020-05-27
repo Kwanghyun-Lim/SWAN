@@ -1,5 +1,5 @@
 
- ## SWAN
+ ## SWAN (Serial management With an Array of solid state drives on a Network)
 
  - What is SWAN 
     - A novel all flash array management scheme
