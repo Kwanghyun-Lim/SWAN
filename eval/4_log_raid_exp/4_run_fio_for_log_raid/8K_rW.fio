@@ -1,0 +1,12 @@
+[global]
+blocksize=8k
+filename=/dev/mapper/dmsrc-vol
+direct=1
+rw=randwrite
+ioengine=libaio
+iodepth=32
+size=60%
+numjobs=30
+time_based=1
+runtime=3600
+[job1]

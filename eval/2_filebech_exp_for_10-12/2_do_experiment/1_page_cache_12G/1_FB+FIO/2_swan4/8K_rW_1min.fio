@@ -1,0 +1,13 @@
+[global]
+blocksize=8k
+directory=/mnt/swan
+#direct=1
+rw=randwrite
+ioengine=libaio
+iodepth=32
+size=9g
+[files]
+numjobs=30
+time_based=1
+runtime=60
+[job1]

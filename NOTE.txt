@@ -1,0 +1,7 @@
+
+* Branch
+ - master
+ - swan-perf
+   - greedy ploicy as victim group selection instead of fifo
+ - alloc-policy
+   - allocating data evenly spread out

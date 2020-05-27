@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#./ycsb-0.15.0/bin/ycsb load rocksdb -s -P ycsb-0.15.0/workloads/workloada -p rocksdb.dir=/mnt/swan -threads 30 > load_result 2> load_log
+#cp -r /mnt/workloads/ycsb_64_b /mnt/swan
+#cp -r ycsb-0.15.0/ /mnt/swan
+sync
+echo 3 > /proc/sys/vm/drop_caches
+/mnt/md5/ycsb-0.15.0/bin/ycsb run rocksdb -s -P /mnt/md5/ycsb-0.15.0/workloads/workloadc -p rocksdb.dir=/mnt/md5/ycsb_64G_C -threads 30 > /mnt/workloads/result/md5/run_result_64_c 2> /mnt/workloads/result/md5/run_log_64_c
+sync
+echo 3 > /proc/sys/vm/drop_caches 

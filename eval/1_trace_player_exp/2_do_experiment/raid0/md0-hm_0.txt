@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = md0-hm_0.txt 
+ 0 thread start part = 0.000000GB size = 1073.179688GB (0, 281327616 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/hm_0_scale900g_align4k.trace 
+ Execution time = 1200.107473 sec
+ Avg latency = 0.024203 sec, variance = 0.001708
+ Latency min = 0.000001, max = 1.074524 sec
+ IOPS = 42133.693978
+ Bandwidth (total) = 327.223386 MB/s
+ Bandwidth (read) = 108.144833 MB/s
+ Bandwidth (write) = 219.078553 MB/s
+ Total traffic = 392703.230469 MB
+ Read traffic = 129785.421875 MB
+ Write traffic = 262917.808594 MB
+ Trace reset count = 13
+ Total Request = 50564961
+ Read Request = 12943715
+ Write Request = 37621246
+
+ Aggregrated Result 
+ Agg Execution time: 1200.722137 sec
+ Agg latency = 0.024203, min = 0.000001, max = 1.074524 sec
+ Agg IOPS = 42112.125230 
+ Agg Total bandwidth = 327.055876 MB/s 
+ Agg Read bandwidth = 108.089472 MB/s 
+ Agg Write bandwidth = 218.966404 MB/s 
+ Agg Total traffic = 392703.230469 MB
+ Agg Read traffic = 129785.421875 MB
+ Agg Write traffic = 262917.808594 MB
+ Agg Total Request = 50564961
+ Agg Read Request = 12943715
+ Agg Write Request = 37621246

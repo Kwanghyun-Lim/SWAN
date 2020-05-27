@@ -1,0 +1,44 @@
+dell@dell-PowerEdge-R730 ~/swan-prj/eval/4_log_raid_exp/1_make_HDD (master) $ lsblk 
+NAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+sda           8:0    0 119.2G  0 disk  
+├─sda1        8:1    0  55.3G  0 part  /
+├─sda2        8:2    0     1K  0 part  
+└─sda5        8:5    0  63.9G  0 part  [SWAP]
+sdb           8:16   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdc           8:32   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdd           8:48   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sde           8:64   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdf           8:80   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdg           8:96   0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdh           8:112  0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdi           8:128  0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdj           8:144  0 119.2G  0 disk  
+└─md4         9:4    0 953.4G  0 raid4 /mnt/md4
+sdk           8:160  0 238.5G  0 disk  /mnt/workload2
+sdl           8:176  0 238.5G  0 disk  /mnt/workloads
+sdm           8:192  0 111.8G  0 disk  
+sdn           8:208  0 186.3G  0 disk  /mnt/load
+sdo           8:224  0 465.8G  0 disk  
+└─sdo1        8:225  0 465.8G  0 part  
+sr0          11:0    1  1024M  0 rom   
+nvme0n1     259:0    0 372.6G  0 disk  
+└─nvme0n1p1 259:1    0 372.6G  0 part  
+  └─md0       9:0    0     1T  0 raid0 
+nvme1n1     259:2    0 372.6G  0 disk  
+└─nvme1n1p1 259:3    0   344G  0 part  
+  └─md0       9:0    0     1T  0 raid0 
+nvme2n1     259:4    0 372.6G  0 disk  
+└─nvme2n1p1 259:5    0   237G  0 part  
+  └─md0       9:0    0     1T  0 raid0 
+nvme3n1     259:6    0 372.6G  0 disk  
+├─nvme3n1p1 259:7    0   118G  0 part  
+│ └─md0       9:0    0     1T  0 raid0 
+└─nvme3n1p2 259:8    0 254.6G  0 part 

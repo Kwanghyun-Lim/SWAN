@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = exch.txt 
+ 0 thread start part = 0.000000GB size = 1071.608887GB (0, 280915840 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/exch/fast2012-0.csv 
+ Execution time = 1200.031541 sec
+ Avg latency = 0.011184 sec, variance = 0.000173
+ Latency min = 0.000001, max = 2.354390 sec
+ IOPS = 89236.738649
+ Bandwidth (total) = 934.860054 MB/s
+ Bandwidth (read) = 457.194991 MB/s
+ Bandwidth (write) = 477.665062 MB/s
+ Total traffic = 1121861.550781 MB
+ Read traffic = 548648.410156 MB
+ Write traffic = 573213.140625 MB
+ Trace reset count = 15
+ Total Request = 107086901
+ Read Request = 38136123
+ Write Request = 68950778
+
+ Aggregrated Result 
+ Agg Execution time: 1201.126640 sec
+ Agg latency = 0.011184, min = 0.000001, max = 2.354390 sec
+ Agg IOPS = 89155.379153 
+ Agg Total bandwidth = 934.007717 MB/s 
+ Agg Read bandwidth = 456.778155 MB/s 
+ Agg Write bandwidth = 477.229562 MB/s 
+ Agg Total traffic = 1121861.550781 MB
+ Agg Read traffic = 548648.410156 MB
+ Agg Write traffic = 573213.140625 MB
+ Agg Total Request = 107086901
+ Agg Read Request = 38136123
+ Agg Write Request = 68950778

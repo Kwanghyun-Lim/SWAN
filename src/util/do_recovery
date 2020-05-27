@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dmsetup message dmsrc-vol 0 recovery #  

@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = prn_1.txt 
+ 0 thread start part = 0.000000GB size = 1071.608887GB (0, 280915840 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/prn_1_scale900g_align4k.trace 
+ Execution time = 1200.772636 sec
+ Avg latency = 0.018879 sec, variance = 0.001344
+ Latency min = 0.000001, max = 7.433636 sec
+ IOPS = 53476.321897
+ Bandwidth (total) = 1031.913831 MB/s
+ Bandwidth (read) = 883.849337 MB/s
+ Bandwidth (write) = 148.064494 MB/s
+ Total traffic = 1239093.890625 MB
+ Read traffic = 1061302.097656 MB
+ Write traffic = 177791.792969 MB
+ Trace reset count = 6
+ Total Request = 64212904
+ Read Request = 32649075
+ Write Request = 31563829
+
+ Aggregrated Result 
+ Agg Execution time: 1201.488751 sec
+ Agg latency = 0.018879, min = 0.000001, max = 7.433636 sec
+ Agg IOPS = 53444.448770 
+ Agg Total bandwidth = 1031.298786 MB/s 
+ Agg Read bandwidth = 883.322542 MB/s 
+ Agg Write bandwidth = 147.976244 MB/s 
+ Agg Total traffic = 1239093.890625 MB
+ Agg Read traffic = 1061302.097656 MB
+ Agg Write traffic = 177791.792969 MB
+ Agg Total Request = 64212904
+ Agg Read Request = 32649075
+ Agg Write Request = 31563829

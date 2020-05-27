@@ -1,0 +1,79 @@
+#!/bin/sh
+
+modprobe xor 
+
+insmod ../driver/dm-src.ko
+
+#. ./config_multi
+
+#export CACHE
+
+echo 7 > /proc/sys/kernel/printk
+
+
+#echo $#
+numargs=$#
+if [ $numargs -lt 2 ]; then
+	echo "invalid arguments ..."
+	echo "source mount_dmsrc hdd ssd0 ssd1 ... ssdn"
+	return 0
+fi
+
+numssd=$((numargs - 1))
+
+BACKING=${1}
+shift
+
+
+echo Backing Device: $BACKING
+#echo "Num SSD = $numssd"
+if [ $numssd -eq 0 ]; then
+	return 0
+fi
+
+echo Total SSDs: $numssd
+
+str=" $numssd "
+for ((i=1 ; i <= numssd ; i++))
+do
+#    echo "$1"
+	str="$str $1"
+	echo SSD Cache [$i]: $1
+	shift
+done
+
+#echo $str
+
+sz=`blockdev --getsize ${BACKING}`
+#echo $sz
+#echo $BACKING
+#echo $str
+
+#blkdiscard --offset 0 --length `blockdev --getsize64 ${CACHE0}` ${CACHE0}
+# Zeroing the first sector in the cache device
+# triggers formatting the cache device
+#echo destory cache ... 
+#dd if=/dev/zero of=${CACHE0} bs=512 count=1 oflag=direct
+
+volume=dmsrc-vol
+echo creating DM-SRC volume ..
+dmsetup create $volume --table "0 ${sz} dmsrc 0 ${BACKING} $str"
+
+if test $? -ne 0; then
+    echo "initialization failed. see dmseg"
+else
+	dmsetup message $volume 0 sync_interval 100  # us
+#	dmsetup message $volume 0 reclaim_policy 2 # gc
+	dmsetup message $volume 0 sequential_enable 1 # 
+	dmsetup message $volume 0 gc_with_dirtysync 0 #  
+	dmsetup message $volume 0 u_max 95 #  
+	dmsetup message $volume 0 enable_read_cache 0 #  
+	dmsetup message $volume 0 bio_plugging 1 #  
+#dmsetup message $volume 0 hot_identification 1 #  
+
+#	dmsetup message $volume 0 add_spare ${CACHE4} #  
+#	dmsetup message $volume 0 add_spare ${CACHE5} #  
+
+fi
+
+echo DM-SRC volume has been successfully created. "(/dev/mapper/dmsrc-vol)"

@@ -1,0 +1,16 @@
+
+For 32G workload
+ - vi ycsb-0.15.0/workloads/workloada
+    recordcount=4194304
+    operationcount=4194304
+ - run /mnt/load/4_ycsb_32_a
+ - You can check result file in /mnt/load/result/lograid/run_result_32_a
+ - Move the results(run_result_32_a) to specific dir
+
+For 64G workload
+ - vi ycsb-0.15.0/workloads/workloada
+    recordcount=8388608
+    operationcount=8388608
+ - run /mnt/load/3_ycsb_64_a
+ - You can check result file in /mnt/load/result/lograid/run_result_64_a
+ - Move the results(run_result_64_a) to specific dir

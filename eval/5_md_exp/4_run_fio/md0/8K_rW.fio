@@ -1,0 +1,12 @@
+[global]
+blocksize=8k
+filename=/dev/md0
+direct=1
+rw=randwrite
+ioengine=libaio
+iodepth=32
+size=70%
+numjobs=30
+time_based=1
+runtime=8200
+[job1]

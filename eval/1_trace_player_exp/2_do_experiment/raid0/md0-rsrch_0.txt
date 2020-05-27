@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = md0-rsrch_0.txt 
+ 0 thread start part = 0.000000GB size = 1073.179688GB (0, 281327616 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/rsrch_0_scale900g_align4k.trace 
+ Execution time = 1200.210754 sec
+ Avg latency = 0.011530 sec, variance = 0.000321
+ Latency min = 0.000001, max = 0.549689 sec
+ IOPS = 88407.708111
+ Bandwidth (total) = 679.380184 MB/s
+ Bandwidth (read) = 83.334111 MB/s
+ Bandwidth (write) = 596.046073 MB/s
+ Total traffic = 815399.402344 MB
+ Read traffic = 100018.496094 MB
+ Write traffic = 715380.906250 MB
+ Trace reset count = 75
+ Total Request = 106107882
+ Read Request = 7090259
+ Write Request = 99017623
+
+ Aggregrated Result 
+ Agg Execution time: 1200.409008 sec
+ Agg latency = 0.011530, min = 0.000001, max = 0.549689 sec
+ Agg IOPS = 88393.107093 
+ Agg Total bandwidth = 679.267980 MB/s 
+ Agg Read bandwidth = 83.320348 MB/s 
+ Agg Write bandwidth = 595.947632 MB/s 
+ Agg Total traffic = 815399.402344 MB
+ Agg Read traffic = 100018.496094 MB
+ Agg Write traffic = 715380.906250 MB
+ Agg Total Request = 106107882
+ Agg Read Request = 7090259
+ Agg Write Request = 99017623

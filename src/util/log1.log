@@ -1,0 +1,33 @@
+[main] Hello kwang hyun!
+before before?
+before atoi? 3
+case 'N' NUM_SSD 3
+before before?
+before atoi? 1
+case 'n' num_ssd 1
+[kh] NUM_SSD 3
+ SSD[0][0] = /dev/vdc 
+ SSD[1][0] = /dev/vdd 
+ SSD[2][0] = /dev/vde 
+ DM-SRC metadata will use 112MB of your 3953MB main memory
+ chunk group size = 262144 
+ chunks per group = 128 
+ Writing superblock on /dev/vdc 
+ Writing superblock on /dev/vdd 
+ Writing superblock on /dev/vde 
+ RAM buffer size = 128.000MB
+ Total cache size = 15360.00MB
+ Num chunks per SSD = 4992
+ Num groups per SSD = 39
+ Chunk size = 1024KB, stripe size = 1024KB
+ Chunk group size = 128MB, stripe group size = 128MB
+ Summary Per Chunk = 2 
+ Meta Per Page = 512 
+ Erasure Code: Parity
+ Parity Allocation: Fixed
+ Data Allocation: Horizontal
+ Striping Policy: Separated
+ Hot Data Identification: On
+ Reclaim Policy: GC
+ Victim Policy: Greedy
+ None Flush Command

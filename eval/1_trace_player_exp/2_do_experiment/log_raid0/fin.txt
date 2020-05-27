@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = fin.txt 
+ 0 thread start part = 0.000000GB size = 1071.608887GB (0, 280915840 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/fin/financial_trace.txt 
+ Execution time = 1200.108046 sec
+ Avg latency = 0.004717 sec, variance = 0.000063
+ Latency min = 0.000001, max = 2.902267 sec
+ IOPS = 207559.127636
+ Bandwidth (total) = 989.185037 MB/s
+ Bandwidth (read) = 191.404130 MB/s
+ Bandwidth (write) = 797.780907 MB/s
+ Total traffic = 1187128.921875 MB
+ Read traffic = 229705.636719 MB
+ Write traffic = 957423.285156 MB
+ Trace reset count = 47
+ Total Request = 249093379
+ Read Request = 22473117
+ Write Request = 226620262
+
+ Aggregrated Result 
+ Agg Execution time: 1203.766908 sec
+ Agg latency = 0.004717, min = 0.000001, max = 2.902267 sec
+ Agg IOPS = 206928.249435 
+ Agg Total bandwidth = 986.178399 MB/s 
+ Agg Read bandwidth = 190.822355 MB/s 
+ Agg Write bandwidth = 795.356043 MB/s 
+ Agg Total traffic = 1187128.921875 MB
+ Agg Read traffic = 229705.636719 MB
+ Agg Write traffic = 957423.285156 MB
+ Agg Total Request = 249093379
+ Agg Read Request = 22473117
+ Agg Write Request = 226620262

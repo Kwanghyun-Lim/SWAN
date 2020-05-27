@@ -1,0 +1,4 @@
+#!/bin/bash
+
+~/md_conf/clear_cache.sh
+fio ./8K_rW_6h.fio

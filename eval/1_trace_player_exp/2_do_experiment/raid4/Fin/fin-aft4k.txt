@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = fin-aft4k.txt 
+ 0 thread start part = 0.000000GB size = 715.078125GB (0, 187453440 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /root/Prj/Traces/fin/financial_trace.txt 
+ Execution time = 1200.459246 sec
+ Avg latency = 0.034455 sec, variance = 0.003442
+ Latency min = 0.000001, max = 7.995243 sec
+ IOPS = 29702.729274
+ Bandwidth (total) = 141.770760 MB/s
+ Bandwidth (read) = 27.315565 MB/s
+ Bandwidth (write) = 114.455195 MB/s
+ Total traffic = 170190.019531 MB
+ Read traffic = 32791.222656 MB
+ Write traffic = 137398.796875 MB
+ Trace reset count = 7
+ Total Request = 35656916
+ Read Request = 7629309
+ Write Request = 28027607
+
+ Aggregrated Result 
+ Agg Execution time: 1201.327735 sec
+ Agg latency = 0.034455, min = 0.000001, max = 7.995243 sec
+ Agg IOPS = 29681.255965 
+ Agg Total bandwidth = 141.668268 MB/s 
+ Agg Read bandwidth = 27.295818 MB/s 
+ Agg Write bandwidth = 114.372450 MB/s 
+ Agg Total traffic = 170190.019531 MB
+ Agg Read traffic = 32791.222656 MB
+ Agg Write traffic = 137398.796875 MB
+ Agg Total Request = 35656916
+ Agg Read Request = 7629309
+ Agg Write Request = 28027607

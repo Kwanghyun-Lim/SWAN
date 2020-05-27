@@ -1,0 +1,10 @@
+#!/bin/sh
+
+umount -l /mnt/dmsrc/
+
+echo remove dmsrc-vol ...
+dmsetup remove dmsrc-vol
+
+rmmod dm-src
+#rmmod null_blk
+#rmmod xor 

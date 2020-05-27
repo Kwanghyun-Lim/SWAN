@@ -1,0 +1,22 @@
+[global]
+#bsrange=4k-256k
+blocksize=4k
+#filename=/mnt/md4
+directory=/mnt/md4
+direct=1
+rw=randwrite
+ioengine=libaio
+iodepth=32
+size=28g # (119.2G * 6) / 2(50% utilization) / 20(numjobs) ~= 17.88G
+#size=10m # (119.2G * 6) * 0.77(70% utilization) / 20(numjobs) ~= 27G
+#size=60%
+#size=60%
+[files]
+numjobs=20
+nrfiles=1
+time_based=1
+runtime=600
+#runtime=600
+[job1]
+
+#write_lat_log=aging_lat.log

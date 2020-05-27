@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1800.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = msn.txt 
+ 0 thread start part = 0.000000GB size = 1073.179688GB (0, 281327616 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/MSN/fast-1.csv 
+ Execution time = 1800.196350 sec
+ Avg latency = 0.019420 sec, variance = 0.000994
+ Latency min = 0.000002, max = 1.148283 sec
+ IOPS = 50303.428300
+ Bandwidth (total) = 876.406476 MB/s
+ Bandwidth (read) = 391.366182 MB/s
+ Bandwidth (write) = 485.040293 MB/s
+ Total traffic = 1577703.738281 MB
+ Read traffic = 704535.972656 MB
+ Write traffic = 873167.765625 MB
+ Trace reset count = 41
+ Total Request = 90556048
+ Read Request = 3502767
+ Write Request = 87053281
+
+ Aggregrated Result 
+ Agg Execution time: 1800.549900 sec
+ Agg latency = 0.019420, min = 0.000002, max = 1.148283 sec
+ Agg IOPS = 50293.550876 
+ Agg Total bandwidth = 876.234387 MB/s 
+ Agg Read bandwidth = 391.289335 MB/s 
+ Agg Write bandwidth = 484.945052 MB/s 
+ Agg Total traffic = 1577703.738281 MB
+ Agg Read traffic = 704535.972656 MB
+ Agg Write traffic = 873167.765625 MB
+ Agg Total Request = 90556048
+ Agg Read Request = 3502767
+ Agg Write Request = 87053281

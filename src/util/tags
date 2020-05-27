@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CACHE_MD_STATE_CLEAN	dmsrc_create.c	52;"	d	file:
+CACHE_MD_STATE_DIRTY	dmsrc_create.c	51;"	d	file:
+CACHE_MD_STATE_FASTCLEAN	dmsrc_create.c	53;"	d	file:
+CACHE_MD_STATE_UNSTABLE	dmsrc_create.c	54;"	d	file:
+COMMIT_REV	Makefile	/^COMMIT_REV ?= $(shell git describe  --always --abbrev=12)$/;"	m
+COMMIT_REV	dmsrc_create.c	62;"	d	file:
+FLASHCACHE_WRITE_AROUND	dmsrc_create.c	50;"	d	file:
+FLASHCACHE_WRITE_BACK	dmsrc_create.c	48;"	d	file:
+FLASHCACHE_WRITE_THROUGH	dmsrc_create.c	49;"	d	file:
+INSTALL_DIR	Makefile	/^INSTALL_DIR = $(DESTDIR)\/sbin\/$/;"	m
+MAX_SSD	dmsrc_create.c	56;"	d	file:
+cache_sb_state	dmsrc_create.c	/^	int cache_sb_state;$/;"	m	struct:flash_superblock	file:
+check_sure	dmsrc_create.c	/^check_sure(void)$/;"	f	file:
+dmsetup_cmd	dmsrc_create.c	/^char dmsetup_cmd[8192];$/;"	v
+flash_superblock	dmsrc_create.c	/^struct flash_superblock{$/;"	s	file:
+gen_uuid	dmsrc_create.c	/^gen_uuid(){$/;"	f
+get_block_size	dmsrc_create.c	/^get_block_size(char *s)$/;"	f	file:
+get_cache_size	dmsrc_create.c	/^get_cache_size(char *s)$/;"	f	file:
+get_chunk_size	dmsrc_create.c	/^get_chunk_size(char *s)$/;"	f	file:
+load_module	dmsrc_create.c	/^load_module(void)$/;"	f	file:
+main	dmsrc_create.c	/^main(int argc, char **argv)$/;"	f
+module_loaded	dmsrc_create.c	/^module_loaded(void)$/;"	f	file:
+pname	dmsrc_create.c	/^char *pname;$/;"	v
+usage	dmsrc_create.c	/^usage(char *pname)$/;"	f
+verbose	dmsrc_create.c	/^int verbose = 0;$/;"	v

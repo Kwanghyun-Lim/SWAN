@@ -1,0 +1,16 @@
+[global]
+blocksize=8k
+directory=/mnt/md4
+#filename=/mnt/md4
+#direct=1
+
+rw=randwrite
+ioengine=libaio
+iodepth=32
+size=9g
+
+[files]
+numjobs=20
+time_based=1
+runtime=60 #1min
+[job1]

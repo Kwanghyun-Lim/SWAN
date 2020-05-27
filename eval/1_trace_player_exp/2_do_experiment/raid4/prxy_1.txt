@@ -1,0 +1,38 @@
+ Q depth = 32 
+ Timeout = 1200.00 seconds 
+ No of traces = 1 
+ No of threads = 32 
+ per thread = 32 
+ Result file = prxy_1.txt 
+ 0 thread start part = 0.000000GB size = 953.437500GB (0, 249937920 pages)
+
+ Per Trace 0 I/O statistics 
+ Trace name = /home/dell/Traces/prxy_1.part1_scale900g_align4k.trace 
+ Execution time = 1201.363590 sec
+ Avg latency = 0.047558 sec, variance = 0.012341
+ Latency min = 0.000001, max = 31.354391 sec
+ IOPS = 21517.326826
+ Bandwidth (total) = 259.374326 MB/s
+ Bandwidth (read) = 173.458643 MB/s
+ Bandwidth (write) = 85.915682 MB/s
+ Total traffic = 311602.871094 MB
+ Read traffic = 208386.898438 MB
+ Write traffic = 103215.972656 MB
+ Trace reset count = 1
+ Total Request = 25850133
+ Read Request = 15984967
+ Write Request = 9865166
+
+ Aggregrated Result 
+ Agg Execution time: 1202.252250 sec
+ Agg latency = 0.047558, min = 0.000001, max = 31.354391 sec
+ Agg IOPS = 21501.422019 
+ Agg Total bandwidth = 259.182606 MB/s 
+ Agg Read bandwidth = 173.330429 MB/s 
+ Agg Write bandwidth = 85.852177 MB/s 
+ Agg Total traffic = 311602.871094 MB
+ Agg Read traffic = 208386.898438 MB
+ Agg Write traffic = 103215.972656 MB
+ Agg Total Request = 25850133
+ Agg Read Request = 15984967
+ Agg Write Request = 9865166
